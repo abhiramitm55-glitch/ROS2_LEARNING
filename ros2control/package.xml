@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2control</name>
+  <version>0.0.0</version>
+  <description>Two wheeled ros2_control example package</description>
+  <maintainer email="abhirami@todo.todo">abhirami</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>launch</build_depend>
+  <build_depend>ros2_control</build_depend>
+  <build_depend>diff_drive_controller</build_depend>
+  
+  <!-- Execution dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
